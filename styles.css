@@ -182,6 +182,8 @@ li{
 }
 
 .recipe-detail-image {
+    width: 500px;
+    height: 400px;
     margin: 5px;
 }
 
