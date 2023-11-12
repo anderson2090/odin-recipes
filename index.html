@@ -5,31 +5,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Unreal Recipes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chewy&family=Rock+Salt&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
 </head>
 
 <body>
     <header>
-        <h1>Unreal Recipes</h1>
+
+        <div class="heading-img-container">
+            <img class="heading-img" src="images/heading2.svg" alt="heading">
+
+        </div>
+
+
+
     </header>
-    <figure>
-        <img width="500" height="400" src="./images/unreal-recipes.jpg"
-            alt="A man in a dragon costume, holding two burgers">
-    </figure>
-    <section>
-        <p>Welcome to Unreal Recipes, the website where you can find recipes for dishes that don't exist in the real
-            world.
-            Whether you want to cook a dragon steak, bake a unicorn cake, or brew a potion of invisibility, we have you
-            covered. Our recipes are easy to follow, fun to make, and guaranteed to surprise your guests. Just don't
-            blame us if they turn out to be poisonous, explosive, or cursed. Unreal Recipes is not responsible for any
-            side effects, injuries, or lawsuits that may result from using our recipes. Enjoy!</p>
-    </section>
-    <nav>
-        <ul>
-            <li> <a href="./recipes/dragon-steak.html">Dragon Steak with Fire Sauce</a></li>
-            <li> <a href="./recipes/unicorn-cake.html">Rainbowlicious Unicorn Cake</a></li>
-            <li> <a href="./recipes/invisibility-potion.html">Invisibility Potion</a></li>
-        </ul>
-    </nav>
+
+    <div class="recipes-container">
+        <div class="recipe-container">
+            <img class="recipe-image" src="images/steak-f.png" alt="dragon">
+            <a class="button blue-button" href="./recipes/dragon-steak.html">Dragon Steak<br>
+                <div class="button-secondary-text">with fire sauce</div>
+            </a>
+            <img class="recipe-image" src="./images/sauce.png" alt="">
+        </div>
+        <div class="recipe-container">
+            <img class="recipe-image" src="./images/invisibility-potion.png" alt="invisibility potion">
+            <a class="button red-button" href="./recipes/invisibility-potion.html">Invisibility Potion<br>
+                <div class="button-secondary-text">with Spellbound Herbal Brew</div>
+            </a>
+            <img class="recipe-image" src="./images/magic-herbs.png" alt="magic herbs">
+        </div>
+        <div class="recipe-container">
+            <img class="recipe-image" src="./images/unicorn-cake.png" alt="unicorn cake">
+            <a class="button blue-button" href="./recipes/unicorn-cake.html">Unicorn Cake<br>
+                <div class="button-secondary-text">with magic tea</div>
+            </a>
+            <img class="recipe-image" src="images/magic-tea.png" alt="magic tea">
+        </div>
+    </div>
+
 </body>
 
 </html>
