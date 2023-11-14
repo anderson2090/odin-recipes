@@ -133,7 +133,7 @@ table {
 .recipe-page-container {
     display: flex;
     align-items: center;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
 }
 
 .recipe-contents-container {
@@ -200,6 +200,7 @@ body {
 
 .recipes-container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
 
@@ -207,6 +208,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.186);
 
 }
 
