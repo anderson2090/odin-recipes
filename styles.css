@@ -243,6 +243,9 @@ body {
     text-align: center;
     box-shadow: 5px 5px 10px #000000;
 }
+.button:hover{
+    padding: 25px;
+}
 
 .blue-button {
 
